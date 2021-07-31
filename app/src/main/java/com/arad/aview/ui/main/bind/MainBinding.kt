@@ -1,4 +1,4 @@
-package com.example.webview.ui.main.bind
+package com.arad.aview.ui.main.bind
 
 import android.content.Context
 import android.content.Intent
@@ -7,10 +7,9 @@ import android.view.View
 import android.webkit.WebChromeClient
 import android.webkit.WebSettings
 import android.webkit.WebView
-import androidx.core.content.ContextCompat.startActivity
 import androidx.core.view.isVisible
-import com.example.webview.databinding.FragmentMainBinding
-import com.example.webview.util.CallBack
+import com.arad.aview.databinding.FragmentMainBinding
+import com.arad.aview.util.CallBack
 import javax.inject.Inject
 
 

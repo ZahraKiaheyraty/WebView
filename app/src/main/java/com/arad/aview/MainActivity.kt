@@ -1,8 +1,7 @@
-package com.example.webview
+package com.arad.aview
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.webview.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

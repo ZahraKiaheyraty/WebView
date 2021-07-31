@@ -1,4 +1,4 @@
-package com.example.webview
+package com.arad.aview
 
 import org.junit.Test
 

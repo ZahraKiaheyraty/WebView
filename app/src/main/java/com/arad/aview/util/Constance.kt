@@ -1,4 +1,4 @@
-package com.example.webview.util
+package com.arad.aview.util
 
 object Constance {
     const val PING_SUSSECC = "1"

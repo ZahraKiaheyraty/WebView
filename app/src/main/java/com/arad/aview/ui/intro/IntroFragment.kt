@@ -1,20 +1,17 @@
-package com.example.webview.ui.intro
+package com.arad.aview.ui.intro
 
 import android.os.Bundle
 import android.view.View
-import android.widget.Toast
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
-import com.example.webview.R
-import com.example.webview.databinding.FragmentIntroBinding
-import com.example.webview.ui.main.MainViewModel
+import com.arad.aview.R
+import com.arad.aview.databinding.FragmentIntroBinding
+import com.arad.aview.ui.main.MainViewModel
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 

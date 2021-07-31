@@ -1,18 +1,16 @@
-package com.example.webview.di
+package com.arad.aview.di
 
 import android.app.Application
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.os.Build
-import com.example.webview.ConnectivityLiveData
-import com.example.webview.util.CheckPing
+import com.arad.aview.ConnectivityLiveData
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
-import java.io.IOException
 
 @InstallIn(SingletonComponent::class)
 @Module

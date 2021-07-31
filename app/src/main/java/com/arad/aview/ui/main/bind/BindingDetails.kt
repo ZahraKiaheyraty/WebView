@@ -1,7 +1,6 @@
-package com.example.webview.ui.main.bind
+package com.arad.aview.ui.main.bind
 
-import android.renderscript.ScriptGroup
-import com.example.webview.databinding.FragmentMainBinding
+import com.arad.aview.databinding.FragmentMainBinding
 
 interface BindingDetails {
     fun webView(bind:FragmentMainBinding)

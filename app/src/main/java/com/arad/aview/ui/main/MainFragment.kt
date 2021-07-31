@@ -1,4 +1,4 @@
-package com.example.webview.ui.main
+package com.arad.aview.ui.main
 
 import android.os.Bundle
 import android.view.View
@@ -6,11 +6,10 @@ import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
-import com.example.webview.R
-import com.example.webview.databinding.FragmentMainBinding
-import com.example.webview.ui.main.bind.MainBinding
+import com.arad.aview.R
+import com.arad.aview.databinding.FragmentMainBinding
+import com.arad.aview.ui.main.bind.MainBinding
 import dagger.hilt.android.AndroidEntryPoint
-import javax.inject.Inject
 
 @AndroidEntryPoint
 class MainFragment : Fragment(R.layout.fragment_main) {
