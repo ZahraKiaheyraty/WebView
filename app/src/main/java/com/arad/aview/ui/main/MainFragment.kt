@@ -36,7 +36,6 @@ class MainFragment : Fragment(R.layout.fragment_main) {
 
     }
 
-
     override fun onDestroyView() {
         super.onDestroyView()
         callback.isEnabled = false
@@ -57,15 +56,15 @@ class MainFragment : Fragment(R.layout.fragment_main) {
         requireActivity().onBackPressedDispatcher.addCallback(callback)
     }
 
-   fun  onObserve(){
-       viewModel.networkObserve.observe(this, Observer {
-           when (it) {
-               true -> {
-                   binding.web.reload()
-               }
-           }
-       })
+    fun onObserve() {
+        viewModel.networkObserve.observe(this, Observer {
+            when (it) {
+                true -> {
+                    binding.web.reload()
+                }
+            }
+        })
 
-   }
+    }
 
 }

@@ -7,13 +7,11 @@ import kotlinx.coroutines.*
 import javax.inject.Inject
 
 @HiltViewModel
-class MainViewModel @Inject constructor(var network: ConnectivityLiveData,val check:Boolean) :
+class MainViewModel @Inject constructor(var network: ConnectivityLiveData, val check: Boolean) :
     ViewModel() {
 
     var checkNewWork = MutableLiveData<Boolean>(false)
     var networkObserve: LiveData<Boolean> = checkNewWork
-
-
 
 
     init {
@@ -35,6 +33,5 @@ class MainViewModel @Inject constructor(var network: ConnectivityLiveData,val ch
             })
         }
     }
-
 
 }

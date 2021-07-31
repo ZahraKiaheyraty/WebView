@@ -40,4 +40,5 @@ class ConnectivityLiveData @Inject constructor(private val connectivityManager: 
         super.onInactive()
         connectivityManager.unregisterNetworkCallback(networkCallback)
     }
+
 }

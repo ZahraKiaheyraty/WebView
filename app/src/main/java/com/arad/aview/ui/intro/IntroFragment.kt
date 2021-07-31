@@ -49,17 +49,15 @@ class IntroFragment : Fragment(R.layout.fragment_intro) {
         checkConnection()
     }
 
-    private fun checkConnection(){
-       binding.poorConnection.setOnClickListener {
-           viewModel.onSubscribe(this)
-       }
+    private fun checkConnection() {
+        binding.poorConnection.setOnClickListener {
+            viewModel.onSubscribe(this)
+        }
     }
 
     private suspend fun navigation() {
         delay(3000)
         findNavController().navigate(R.id.action_introFragment_to_mainFragment)
     }
-
-
 
 }

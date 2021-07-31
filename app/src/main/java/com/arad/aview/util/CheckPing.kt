@@ -9,7 +9,6 @@ import kotlinx.coroutines.*
 import java.io.IOException
 import javax.inject.Inject
 
-
 class CheckPing @Inject constructor(var cn: Context) {
     private var runtime: Runtime? = null
     private var onPingListener: OnCheckPingListener? = null
@@ -69,8 +68,6 @@ class CheckPing @Inject constructor(var cn: Context) {
     }
 
 
-
-
     private fun isNetworkConnected(@ApplicationContext context: Context): Boolean {
         val connectivityManager = context.getSystemService(
             Context.CONNECTIVITY_SERVICE
@@ -97,6 +94,5 @@ class CheckPing @Inject constructor(var cn: Context) {
         }
         return false
     }
-
 
 }
